@@ -74,9 +74,10 @@ img {
 
 .cards-section {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -116,9 +117,10 @@ img {
 
 .two-column-section {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -155,11 +157,16 @@ img {
     text-align: center;
 }
 
+.services-section p {
+    max-width: 1280px;
+}
+
 .service-cards {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -167,7 +174,7 @@ img {
 .service-card {
     background-color: #f2f2f2;
     width: 22%;
-    text-align: left;;
+    text-align: left;
 }
 
 .button-read, .button-details {
@@ -182,10 +189,10 @@ img {
 }
 
 .large-content {
-    width: 100%;
+    width: 98%;
     text-align: left;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -211,7 +218,7 @@ img {
 }
 
 .contact {
-    max-width: 40vw;
+    max-width: 1280px;
     display: flex;
     flex-flow: row wrap;
     max-width: 500px;
@@ -225,8 +232,14 @@ img {
     justify-content: space-between;
 }
 
-.contact .input input {
-    width: 50%;
+.input input {
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(199, 209, 215, 0.5);
+    border: none;
 }
 
 .message {
@@ -237,6 +250,9 @@ img {
 .message textarea {
     height: 100%;
     margin: auto;
+    background-color: rgb(199, 209, 215, 0.5);
+    border: none;
+    margin: 1rem;
 } 
 
 
@@ -247,6 +263,14 @@ img {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+}
+
+.contact-section p {
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(199, 209, 215, 0.5);
+    color: black;
 }
 
 footer {
@@ -260,4 +284,30 @@ footer {
 [class^=button] {
     display: block;
     margin: 1rem auto 1rem auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .service-card,
+    .card,
+    .contact {
+        width: calc(97% / 2);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card:last-child {
+        flex-grow: 1;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .service-card,
+    .card,
+    .column,
+    .contact {
+        width: 98%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
