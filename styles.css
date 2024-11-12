@@ -202,6 +202,7 @@ img {
 }
 
 .contact-section {
+    height: 40vh;
     background-image: url('/Images/Layout01Assets/img14.jpg');
     background-size: cover;
     color: white;
@@ -210,6 +211,7 @@ img {
 }
 
 .contact {
+    max-width: 40vw;
     display: flex;
     flex-flow: row wrap;
     max-width: 500px;
@@ -217,18 +219,34 @@ img {
 }
 
 .input {
+    width: 50%;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
+}
+
+.contact .input input {
     width: 50%;
-    max-height: 400px;
 }
 
 .message {
-    max-height: 400px;
+    width: 50%;
+    max-height: 20vh;
 }
 
-textarea {
-    padding-bottom: 1.5rem;
+.message textarea {
+    height: 100%;
+    margin: auto;
+} 
+
+
+.contact-section button {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 
 footer {
