@@ -1,0 +1,245 @@
+/* style.css */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h3 {
+    padding: 0.5rem 1rem 0rem;
+}
+
+p {
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    background-color: #383E4C;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 2rem;
+    border: #646D7C solid 1px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-image: url('/Images/Layout01Assets/img11.jpg');
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card {
+    background-color: #f2f2f2;
+    width: 30%;
+    text-align: left;
+}
+
+.button-green {
+    background-color: #178a27;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button-blue {
+    background-color: #1686c1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button-red {
+    background-color: #852406;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.two-column-section {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.column {
+    background-color: #f2f2f2;
+    width: 45%;
+}
+
+.read-more {
+    background-color: white;
+    color: #646D7C;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    justify-content: flex-end;
+    margin: 1rem 5rem 1rem auto;
+}
+
+.services-section {
+    height: 40vh;
+    background-position-x: center;
+    background-image: url(/Images/Layout01Assets/img13.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service-card {
+    background-color: #f2f2f2;
+    width: 22%;
+    text-align: left;;
+}
+
+.button-read, .button-details {
+    background-color: white;
+    color: #646D7C;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 1rem auto 1rem auto;
+}
+
+.large-content {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bcolor {
+    background-color: #f2f2f2;
+    padding-bottom: 1rem;
+}
+
+.bcolor button {
+    display: block;
+    margin: 1rem 5rem 1rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.contact-section {
+    background-image: url('/Images/Layout01Assets/img14.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 500px;
+    margin: auto;
+}
+
+.input {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    max-height: 400px;
+}
+
+.message {
+    max-height: 400px;
+}
+
+textarea {
+    padding-bottom: 1.5rem;
+}
+
+footer {
+    background-color: white;
+    color: #646D7C;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+[class^=button] {
+    display: block;
+    margin: 1rem auto 1rem auto;
+}
