@@ -190,11 +190,11 @@ img {
 
 .large-content {
     width: 98%;
+    margin: auto;
     text-align: left;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f2f2f2;
 }
 
 .bcolor {
@@ -226,6 +226,7 @@ img {
 }
 
 .input {
+    flex-grow: 1;
     width: 50%;
     display: flex;
     flex-flow: column;
