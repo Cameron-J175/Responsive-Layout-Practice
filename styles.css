@@ -22,7 +22,41 @@ h3 {
     padding: 0.5rem 1rem 0rem;
 }
 
+hr {
+    border: #eeeeee solid 1px;
+}
+
+footer > p:last-child {
+    padding: 4rem;
+}
+
 p {
+    padding: 1rem;
+}
+
+input {
+    width: 20vw;
+    margin: 0.5rem;
+    background-color: rgb(199, 209, 215, 0.5);
+    border: none;
+    border-radius: 0.25rem;;
+    padding: 0.5rem;
+}
+
+ textarea {
+    height: 90%;
+    width: 20vw;
+    margin: auto;
+    background-color: rgb(199, 209, 215, 0.5);
+    border: none;
+    border-radius: 0.25rem;
+} 
+
+button {
+    margin-left: 99rem;
+    display: inline-block;
+    background-color: #454545;
+    border-radius: 100em;
     padding: 1rem;
 }
 
@@ -212,6 +246,20 @@ img {
     padding-bottom: 1rem;
 }
 
+.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 0.3rem;
+    margin-bottom: -0.5rem;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
 .bcolor button {
     display: block;
     margin: 1rem 5rem 1rem auto;
@@ -245,24 +293,11 @@ img {
     flex-flow: column wrap;
 }
 
-input {
-    width: 20vw;
-    margin: 0.5rem;
-    background-color: rgb(199, 209, 215, 0.5);
-    border: none;
-    border-radius: 0.25rem;;
-    padding: 0.5rem;
-}
-
- textarea {
-    height: 90%;
-    width: 20vw;
-    margin: auto;
-    background-color: rgb(199, 209, 215, 0.5);
-    border: none;
-    border-radius: 0.25rem;
-} 
-
+.bottomright {
+    position: sticky;
+    bottom: 8px;
+    font-size: 18px;
+  }
 
 .contact-section button {
     display: block;
